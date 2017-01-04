@@ -10,4 +10,12 @@
 
 `broadwayd :5`
 
+> Em seguida, aponte o navegador da web em http://127.0.0.1:8085. Inicie seus aplicativos como este:
+
 `GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 ./test`
+
+### Variáveis de ambiente específicas da Broadway
+
+> BROADWAY_DISPLAY. Especifica o número de exibição da Broadway. O display padrão é 0. O número de exibição determina a porta a ser usada ao conectar-se a um aplicativo Broadway através da seguinte fórmula:
+
+`port = 8080 + display`
