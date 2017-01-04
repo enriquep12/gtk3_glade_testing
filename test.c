@@ -385,7 +385,7 @@ main(int argc, char** argv){
     gtk_init(&argc, &argv);
     
     gtkBuilder = gtk_builder_new();
-    gtk_builder_add_from_file(gtkBuilder, "test2.ui", NULL);
+    gtk_builder_add_from_file(gtkBuilder, "test.ui", NULL);
     
     window = GTK_WIDGET(gtk_builder_get_object(gtkBuilder, "window"));
     
